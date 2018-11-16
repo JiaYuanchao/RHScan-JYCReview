@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		570F16A92022B1E1000BF703 /* RHScanNative.m in Sources */ = {isa = PBXBuildFile; fileRef = 570F16A32022B1E1000BF703 /* RHScanNative.m */; };
+		570F16AA2022B1E1000BF703 /* RHScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 570F16A62022B1E1000BF703 /* RHScanViewController.m */; };
+		570F16AB2022B1E1000BF703 /* RHScanPermissions.m in Sources */ = {isa = PBXBuildFile; fileRef = 570F16A82022B1E1000BF703 /* RHScanPermissions.m */; };
+		578E29DA2022AE4E00686283 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 578E29D92022AE4E00686283 /* AppDelegate.m */; };
+		578E29DD2022AE4E00686283 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 578E29DC2022AE4E00686283 /* ViewController.m */; };
+		578E29E02022AE4E00686283 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 578E29DE2022AE4E00686283 /* Main.storyboard */; };
+		578E29E22022AE4E00686283 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 578E29E12022AE4E00686283 /* Assets.xcassets */; };
+		578E29E52022AE4E00686283 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 578E29E32022AE4E00686283 /* LaunchScreen.storyboard */; };
+		578E29E82022AE4E00686283 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 578E29E72022AE4E00686283 /* main.m */; };
+		579890A0202953D800D1382B /* RHScanViewStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5798909E202953D800D1382B /* RHScanViewStyle.m */; };
+		579890A72029555100D1382B /* RHScanNetAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 579890A12029555100D1382B /* RHScanNetAnimation.m */; };
+		579890A82029555100D1382B /* RHScanLineAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 579890A42029555100D1382B /* RHScanLineAnimation.m */; };
+		579890A92029555100D1382B /* RHScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = 579890A52029555100D1382B /* RHScanView.m */; };
+		579890AC2029734A00D1382B /* sc_qrcode_scan_light_green@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 579890AA2029734A00D1382B /* sc_qrcode_scan_light_green@2x.png */; };
+		579890AD2029734A00D1382B /* sc_qrcode_scan_light_green@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 579890AB2029734A00D1382B /* sc_qrcode_scan_light_green@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		570F16A32022B1E1000BF703 /* RHScanNative.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHScanNative.m; sourceTree = "<group>"; };
+		570F16A42022B1E1000BF703 /* RHScanPermissions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHScanPermissions.h; sourceTree = "<group>"; };
+		570F16A52022B1E1000BF703 /* RHScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHScanViewController.h; sourceTree = "<group>"; };
+		570F16A62022B1E1000BF703 /* RHScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHScanViewController.m; sourceTree = "<group>"; };
+		570F16A72022B1E1000BF703 /* RHScanNative.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHScanNative.h; sourceTree = "<group>"; };
+		570F16A82022B1E1000BF703 /* RHScanPermissions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHScanPermissions.m; sourceTree = "<group>"; };
+		578E29D52022AE4E00686283 /* RHScan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RHScan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		578E29D82022AE4E00686283 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		578E29D92022AE4E00686283 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		578E29DB2022AE4E00686283 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		578E29DC2022AE4E00686283 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		578E29DF2022AE4E00686283 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		578E29E12022AE4E00686283 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		578E29E42022AE4E00686283 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		578E29E62022AE4E00686283 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		578E29E72022AE4E00686283 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5798909E202953D800D1382B /* RHScanViewStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHScanViewStyle.m; sourceTree = "<group>"; };
+		5798909F202953D800D1382B /* RHScanViewStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHScanViewStyle.h; sourceTree = "<group>"; };
+		579890A12029555100D1382B /* RHScanNetAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHScanNetAnimation.m; sourceTree = "<group>"; };
+		579890A22029555100D1382B /* RHScanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHScanView.h; sourceTree = "<group>"; };
+		579890A32029555100D1382B /* RHScanLineAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHScanLineAnimation.h; sourceTree = "<group>"; };
+		579890A42029555100D1382B /* RHScanLineAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHScanLineAnimation.m; sourceTree = "<group>"; };
+		579890A52029555100D1382B /* RHScanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHScanView.m; sourceTree = "<group>"; };
+		579890A62029555100D1382B /* RHScanNetAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHScanNetAnimation.h; sourceTree = "<group>"; };
+		579890AA2029734A00D1382B /* sc_qrcode_scan_light_green@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sc_qrcode_scan_light_green@2x.png"; sourceTree = "<group>"; };
+		579890AB2029734A00D1382B /* sc_qrcode_scan_light_green@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sc_qrcode_scan_light_green@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		578E29D22022AE4E00686283 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		570F16A22022B142000BF703 /* Scan */ = {
+			isa = PBXGroup;
+			children = (
+				579890AA2029734A00D1382B /* sc_qrcode_scan_light_green@2x.png */,
+				579890AB2029734A00D1382B /* sc_qrcode_scan_light_green@3x.png */,
+				570F16A72022B1E1000BF703 /* RHScanNative.h */,
+				570F16A32022B1E1000BF703 /* RHScanNative.m */,
+				570F16A42022B1E1000BF703 /* RHScanPermissions.h */,
+				570F16A82022B1E1000BF703 /* RHScanPermissions.m */,
+				579890A32029555100D1382B /* RHScanLineAnimation.h */,
+				579890A42029555100D1382B /* RHScanLineAnimation.m */,
+				579890A62029555100D1382B /* RHScanNetAnimation.h */,
+				579890A12029555100D1382B /* RHScanNetAnimation.m */,
+				579890A22029555100D1382B /* RHScanView.h */,
+				579890A52029555100D1382B /* RHScanView.m */,
+				5798909F202953D800D1382B /* RHScanViewStyle.h */,
+				5798909E202953D800D1382B /* RHScanViewStyle.m */,
+				570F16A52022B1E1000BF703 /* RHScanViewController.h */,
+				570F16A62022B1E1000BF703 /* RHScanViewController.m */,
+			);
+			path = Scan;
+			sourceTree = "<group>";
+		};
+		578E29CC2022AE4E00686283 = {
+			isa = PBXGroup;
+			children = (
+				578E29D72022AE4E00686283 /* RHScan */,
+				578E29D62022AE4E00686283 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		578E29D62022AE4E00686283 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				578E29D52022AE4E00686283 /* RHScan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578E29D72022AE4E00686283 /* RHScan */ = {
+			isa = PBXGroup;
+			children = (
+				570F16A22022B142000BF703 /* Scan */,
+				578E29D82022AE4E00686283 /* AppDelegate.h */,
+				578E29D92022AE4E00686283 /* AppDelegate.m */,
+				578E29DB2022AE4E00686283 /* ViewController.h */,
+				578E29DC2022AE4E00686283 /* ViewController.m */,
+				578E29DE2022AE4E00686283 /* Main.storyboard */,
+				578E29E12022AE4E00686283 /* Assets.xcassets */,
+				578E29E32022AE4E00686283 /* LaunchScreen.storyboard */,
+				578E29E62022AE4E00686283 /* Info.plist */,
+				578E29E72022AE4E00686283 /* main.m */,
+			);
+			path = RHScan;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		578E29D42022AE4E00686283 /* RHScan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 578E29EB2022AE4E00686283 /* Build configuration list for PBXNativeTarget "RHScan" */;
+			buildPhases = (
+				578E29D12022AE4E00686283 /* Sources */,
+				578E29D22022AE4E00686283 /* Frameworks */,
+				578E29D32022AE4E00686283 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RHScan;
+			productName = RHScan;
+			productReference = 578E29D52022AE4E00686283 /* RHScan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		578E29CD2022AE4E00686283 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = richinfo;
+				TargetAttributes = {
+					578E29D42022AE4E00686283 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 578E29D02022AE4E00686283 /* Build configuration list for PBXProject "RHScan" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 578E29CC2022AE4E00686283;
+			productRefGroup = 578E29D62022AE4E00686283 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				578E29D42022AE4E00686283 /* RHScan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		578E29D32022AE4E00686283 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				579890AD2029734A00D1382B /* sc_qrcode_scan_light_green@3x.png in Resources */,
+				579890AC2029734A00D1382B /* sc_qrcode_scan_light_green@2x.png in Resources */,
+				578E29E52022AE4E00686283 /* LaunchScreen.storyboard in Resources */,
+				578E29E22022AE4E00686283 /* Assets.xcassets in Resources */,
+				578E29E02022AE4E00686283 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		578E29D12022AE4E00686283 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				578E29DD2022AE4E00686283 /* ViewController.m in Sources */,
+				570F16A92022B1E1000BF703 /* RHScanNative.m in Sources */,
+				579890A0202953D800D1382B /* RHScanViewStyle.m in Sources */,
+				579890A82029555100D1382B /* RHScanLineAnimation.m in Sources */,
+				579890A72029555100D1382B /* RHScanNetAnimation.m in Sources */,
+				578E29E82022AE4E00686283 /* main.m in Sources */,
+				570F16AB2022B1E1000BF703 /* RHScanPermissions.m in Sources */,
+				579890A92029555100D1382B /* RHScanView.m in Sources */,
+				578E29DA2022AE4E00686283 /* AppDelegate.m in Sources */,
+				570F16AA2022B1E1000BF703 /* RHScanViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		578E29DE2022AE4E00686283 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				578E29DF2022AE4E00686283 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		578E29E32022AE4E00686283 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				578E29E42022AE4E00686283 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		578E29E92022AE4E00686283 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		578E29EA2022AE4E00686283 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		578E29EC2022AE4E00686283 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZH956JYR6T;
+				INFOPLIST_FILE = RHScan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.richinfo.RHScan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		578E29ED2022AE4E00686283 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZH956JYR6T;
+				INFOPLIST_FILE = RHScan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.richinfo.RHScan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		578E29D02022AE4E00686283 /* Build configuration list for PBXProject "RHScan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				578E29E92022AE4E00686283 /* Debug */,
+				578E29EA2022AE4E00686283 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		578E29EB2022AE4E00686283 /* Build configuration list for PBXNativeTarget "RHScan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				578E29EC2022AE4E00686283 /* Debug */,
+				578E29ED2022AE4E00686283 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 578E29CD2022AE4E00686283 /* Project object */;
+}
